@@ -51,6 +51,38 @@ module.exports = {
 					{
 						title: "输出output",
 						path: "/handbook/output"
+					},
+					{
+						title: "loader",
+						path: "/handbook/loader"
+					},
+					{
+						title: "插件(plugin)",
+						path: "/handbook/plugin"
+					},
+					{
+						title: "模式(mode)",
+						path: "/handbook/mode"
+					},
+					{
+						title: "浏览器兼容性(browser compatibility)",
+						path: "/handbook/browser-compatibility"
+					},
+					{
+						title: "环境(environment)",
+						path: "/handbook/environment"
+					},
+					{
+						title: "单个入口（简写）语法",
+						path: "/handbook/entry-points-1"
+					},
+					{
+						title: "对象语法",
+						path: "/handbook/entry-points-2"
+					},
+					{
+						title: "常见场景",
+						path: "/handbook/entry-points-3"
 					}
 				],
 			}
