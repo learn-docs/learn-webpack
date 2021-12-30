@@ -1407,7 +1407,7 @@
 
 "@vuepress-reco/vuepress-plugin-back-to-top@^1.6.0":
   version "1.6.0"
-  resolved "https://registry.nlark.com/@vuepress-reco/vuepress-plugin-back-to-top/download/@vuepress-reco/vuepress-plugin-back-to-top-1.6.0.tgz#16cf1a6844f156c11d5135c646270c6734263eb6"
+  resolved "https://registry.npm.taobao.org/@vuepress-reco/vuepress-plugin-back-to-top/download/@vuepress-reco/vuepress-plugin-back-to-top-1.6.0.tgz#16cf1a6844f156c11d5135c646270c6734263eb6"
   integrity sha1-Fs8aaETxVsEdUTXGRicMZzQmPrY=
 
 "@vuepress-reco/vuepress-plugin-comments@^1.6.0":
@@ -1432,6 +1432,13 @@
   version "1.6.0"
   resolved "https://registry.nlark.com/@vuepress-reco/vuepress-plugin-pagation/download/@vuepress-reco/vuepress-plugin-pagation-1.6.0.tgz#c632aae1638ff9c67fe58c39ab617132be9eeecb"
   integrity sha1-xjKq4WOP+cZ/5Yw5q2FxMr6e7ss=
+
+"@vuepress-reco/vuepress-plugin-screenfull@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-screenfull/download/@vuepress-reco/vuepress-plugin-screenfull-1.0.1.tgz#73924c867f1f552c9eae744784b6d5390179e50f"
+  integrity sha1-c5JMhn8fVSyernRHhLbVOQF55Q8=
+  dependencies:
+    screenfull "4.2.1"
 
 "@vuepress/core@1.9.5":
   version "1.9.5"
@@ -7499,6 +7506,11 @@ schema-utils@^2.6.5:
     "@types/json-schema" "^7.0.5"
     ajv "^6.12.4"
     ajv-keywords "^3.5.2"
+
+screenfull@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.npmmirror.com/screenfull/download/screenfull-4.2.1.tgz#3245b7bc73d2b7c9a15bd8caaf6965db7cbc7f04"
+  integrity sha512-PLSp6f5XdhvjCCCO8OjavRfzkSGL3Qmdm7P82bxyU8HDDDBhDV3UckRaYcRa/NDNTYt8YBpzjoLWHUAejmOjLg==
 
 section-matter@^1.0.0:
   version "1.0.0"
