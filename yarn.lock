@@ -1546,6 +1546,14 @@
   dependencies:
     medium-zoom "^1.0.4"
 
+"@vuepress/plugin-medium-zoom@^1.9.5":
+  version "1.9.5"
+  resolved "https://registry.npmmirror.com/@vuepress/plugin-medium-zoom/download/@vuepress/plugin-medium-zoom-1.9.5.tgz#71d71312ea4d579883bdfda554ef4ed1c434bac2"
+  integrity sha512-ANHfmsPxF+lDtPHa0RlRlsfM6J5Bg2PWNfWxLGET9UxgN4tFX1cq3QLUk+yxoNIb5XFUtqEA2gR7nRc2i0Kt0Q==
+  dependencies:
+    "@vuepress/types" "1.9.5"
+    medium-zoom "^1.0.4"
+
 "@vuepress/plugin-nprogress@1.9.5":
   version "1.9.5"
   resolved "https://registry.npmmirror.com/@vuepress/plugin-nprogress/download/@vuepress/plugin-nprogress-1.9.5.tgz#baaf23193410974089ea56d14dd9a32474705a15"
@@ -8805,6 +8813,11 @@ vuepress-plugin-disqus@^0.2.0:
   integrity sha1-ClveQk+B4Bhe2jb7oj16xMrm/wc=
   dependencies:
     vue-disqus "^3.0.5"
+
+vuepress-plugin-dynamic-title@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.nlark.com/vuepress-plugin-dynamic-title/download/vuepress-plugin-dynamic-title-1.0.0.tgz#867e7a8b821ad35ccfaaafc2358bc129817d422f"
+  integrity sha1-hn56i4Ia01zPqq/CNYvBKYF9Qi8=
 
 vuepress-plugin-feed@^0.1.8:
   version "0.1.9"

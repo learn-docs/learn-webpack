@@ -1,8 +1,20 @@
 module.exports = {
-	title: 'webpack5 文档',
+	title: 'webpack5 中文文档',
 	description: 'webpack5 最新文档翻译',
 	base: '/learn-webpack/',
 	theme: 'reco',
+	plugins: [
+	  [
+		 'dynamic-title',
+		 {
+			showIcon: '/favicon.ico',
+			showText: '(/≧▽≦/)咦！又好了！',
+			hideIcon: '/failure.ico',
+			hideText: '(●—●)喔哟，崩溃啦！',
+			recoverTime: 2000,
+		 },
+	  ],
+   ],
 	locales: {
 		'/': {
 			lang: 'zh-CN'
@@ -73,16 +85,52 @@ module.exports = {
 						path: "/handbook/environment"
 					},
 					{
-						title: "单个入口（简写）语法",
+						title: "入口起点-单个入口（简写）语法",
 						path: "/handbook/entry-points-1"
 					},
 					{
-						title: "对象语法",
+						title: "入口起点-对象语法",
 						path: "/handbook/entry-points-2"
 					},
 					{
-						title: "常见场景",
+						title: "入口起点-常见场景",
 						path: "/handbook/entry-points-3"
+					},
+					{
+						title: "输出(output)-用法",
+						path: "/handbook/output-1"
+					},
+					{
+						title: "输出(output)-多个入口起点",
+						path: "/handbook/output-2"
+					},
+					{
+						title: "输出(output)-高级进阶",
+						path: "/handbook/output-3"
+					},
+					{
+						title: "loader-示例",
+						path: "/handbook/loader-1"
+					},
+					{
+						title: "loader-使用 loader",
+						path: "/handbook/loader-2"
+					},
+					{
+						title: "loader-loader 特性",
+						path: "/handbook/loader-3"
+					},
+					{
+						title: "loader-解析 loader",
+						path: "/handbook/loader-4"
+					},
+					{
+						title: "plugin-剖析",
+						path: "/handbook/plugin-1"
+					},
+					{
+						title: "plugin-用法",
+						path: "/handbook/plugin-2"
 					}
 				],
 			}
