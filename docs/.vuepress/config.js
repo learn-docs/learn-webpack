@@ -15,6 +15,10 @@ module.exports = {
 				link: '/'
 			},
 			{
+				text: '星星♥',
+				link: 'https://github.com/webVueBlog/learn-webpack'
+			},
+			{
 		 	text: '哪吒的博客',
 				items: [{
 						text: 'Github',
@@ -38,15 +42,15 @@ module.exports = {
 			},
 			{
 				title: "基础学习",
-				path: '/handbook/ConditionalTypes',
+				path: '/handbook/entry',
 				collapsable: false, // 不折叠
 				children: [{
-						title: "条件类型",
-						path: "/handbook/ConditionalTypes"
+						title: "入口entry",
+						path: "/handbook/entry"
 					},
 					{
-						title: "泛型",
-						path: "/handbook/Generics"
+						title: "输出output",
+						path: "/handbook/output"
 					}
 				],
 			}
