@@ -131,6 +131,42 @@ module.exports = {
 					{
 						title: "plugin-用法",
 						path: "/handbook/plugin-2"
+					},
+					{
+						title: "配置（Configuration）",
+						path: "/handbook/configuration"
+					},
+					{
+						title: "模块（Modules）",
+						path: "/handbook/modules"
+					},
+					{
+						title: "模块解析（Module Resolution）",
+						path: "/handbook/module-resolution"
+					},
+					{
+						title: "Module Federation",
+						path: "/handbook/module-federation"
+					},
+					{
+						title: "依赖图(dependency graph)",
+						path: "/handbook/dependency-graph"
+					},
+					{
+						title: "target",
+						path: "/handbook/target"
+					},
+					{
+						title: "manifest",
+						path: "/handbook/manifest"
+					},
+					{
+						title: "模块热替换(hot module replacement)",
+						path: "/handbook/hot-module-replacement"
+					},
+					{
+						title: "揭示内部原理",
+						path: "/handbook/reveal-inner-workings"
 					}
 				],
 			}
