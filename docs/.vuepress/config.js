@@ -55,7 +55,7 @@ module.exports = {
 			{
 				title: "基础学习",
 				path: '/handbook/entry',
-				collapsable: false, // 不折叠
+				// collapsable: false, // 不折叠
 				children: [{
 						title: "入口entry",
 						path: "/handbook/entry"
