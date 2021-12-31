@@ -169,7 +169,31 @@ module.exports = {
 						path: "/handbook/reveal-inner-workings"
 					}
 				],
-			}
+			},
+			{
+				title: '操作步骤',
+				path: '/webpackdoc/start',
+				children: [{
+					title: "起步",
+					path: "/webpackdoc/start"
+				}]
+			},
+			{
+				title: '精准配置',
+				path: '/webpackconfig/configuration',
+				children: [{
+					title: "配置",
+					path: "/webpackconfig/configuration"
+				}]
+			},
+			{
+				title: 'API使用',
+				path: '/webpackapi/introduction',
+				children: [{
+					title: "简介",
+					path: "/webpackapi/introduction"
+				}]
+			},
 		]
 	}
 }
