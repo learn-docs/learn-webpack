@@ -3,6 +3,9 @@ module.exports = {
 	description: 'webpack5 最新文档翻译',
 	base: '/learn-webpack/',
 	theme: 'reco',
+	head: [
+		['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+	],
 	plugins: [
 	  [
 		 'dynamic-title',
@@ -14,6 +17,7 @@ module.exports = {
 			recoverTime: 2000,
 		 },
 	  ],
+	  ['vuepress-plugin-code-copy', true]
    ],
 	locales: {
 		'/': {
