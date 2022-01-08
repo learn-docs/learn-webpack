@@ -24,7 +24,7 @@ git commit -m 'deploy'
 printf "本地提交成功\n"
 # 覆盖式地将本地仓库发布至github，因为发布不需要保留历史记录
 # 格式为：git push -f git@github.com:'用户名'/'仓库名'.git master
-git push -f https://github.com/webVueBlog/learn-webpack.git dist
+git push -f git@github.com:learn-docs/learn-webpack.git dist
 # git push -f git@github.com:webVueBlog/learn-webpack.git master:gh-pages
 
 printf "dist目录上传成功\n"
