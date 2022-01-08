@@ -25,6 +25,7 @@ module.exports = {
 		}
 	},
 	themeConfig: {
+		lastUpdated: '上次更新',
 		subSidebar: 'auto',
 		nav: [{
 				text: '首页',
